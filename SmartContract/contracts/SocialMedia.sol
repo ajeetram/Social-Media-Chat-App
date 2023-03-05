@@ -124,7 +124,7 @@ contract SocialMedia
         message memory newMsg = message(msg.sender,block.timestamp,_msg);
         allMsges[chatCode].push(newMsg);
     }
-
+//
     function readMessage(address frnd_key) external view returns(message[] memory )
     {
         bytes32 chatCode = _getChatCode(msg.sender,frnd_key);

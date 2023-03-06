@@ -24,7 +24,7 @@ const Navbar = () => {
     },
     {
       menu: "FAQS",
-      link: "/",
+      link: "/query",
     },
     {
       menu: "Terms Of Use",
@@ -128,9 +128,9 @@ const Navbar = () => {
           <div className="model_box">
             <Model openBox ={setOpenModel}
             title="WELCOME TO"
-            head="CHAT BUDDY"
+            head="CHAT TALK"
             info = "This A decentralised chat application.You can talk to anyone via this application without any fear of privacy leak. It is fully secure and transparent." 
-            smallInfo= "Kindley Select Your Name..."
+            smallInfo= "Kindley Enter Your Name..."
             images = {Images.hero}
             functionName = {createAccount}
             address={account}

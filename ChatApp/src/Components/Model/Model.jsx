@@ -16,14 +16,14 @@ const Model = ({openBox,title,head,info,smallInfo,images,functionName, address})
     <div className='Model'>
       <div className='Model_box'>
         <div className='Model_box_left'>
-        <img src={images} alt="buddy" style={{width:"700px", height:"700px"}}></img>
+        <img src={images} alt="buddy" ></img>
         </div>
         <div className='Model_box_right'>
           <h1>{title} <span>{head}</span></h1>
           <p>{info}</p>
           <small>{smallInfo}</small>
           {
-            loading==true ? (<Loader />):
+            loading===true ? (<Loader />):
             ( 
             <div className='Model_box_right_name'> 
             <div className='Model_box_right_name_info'>

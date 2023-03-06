@@ -26,6 +26,12 @@
     color: #F18303;
 }
 
+.Model_box_left img
+{
+    width: 700px;
+    height: 700px;
+}
+
 .Model_box_right_name_info{
     display: flex;
     align-items: center;
@@ -89,5 +95,11 @@
         display: grid;
         grid-template-columns: 1fr;
         z-index: 11111;
+    }
+
+    .Model_box_left img
+    {
+        width: 350px;
+        height: 350px;
     }
 }

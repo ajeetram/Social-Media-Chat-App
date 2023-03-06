@@ -6,5 +6,6 @@ import Loader from "./Loader/Loader";
 import UserCard from "./UserCard/UserCard";
 import Error from './Error/Error'
 import AllUser from "./AllUser/AllUser";
+import Query from "./FAQS/Query";
 import Chat from "./Home";
-export {Navbar, Filter, Friend,Model, Loader, UserCard, Error, AllUser, Chat};
+export {Navbar, Filter, Friend,Model, Loader, UserCard, Error, AllUser, Chat, Query};

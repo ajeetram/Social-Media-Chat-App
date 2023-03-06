@@ -1,4 +1,4 @@
-# Chat-DApp
+# Social Media Chat-DApp
 
 This is a decentralized chat application like what'sapp. This application is privacy risk free and fully secured. 
 Using this application you can talk to anyone of your friend without any fear of data leak. This application provide to you a user friendly front-end interface. It is fully resposive for mobile device also.

@@ -8,12 +8,12 @@ const hre = require("hardhat");
 
 async function main() {
 
-  const SocialMedia = await hre.ethers.getContractFactory("SocialMedia");
-  const socialMedia = await SocialMedia.deploy();
+  const healthRecord = await hre.ethers.getContractFactory("healthRecord");
+  const EHR = await healthRecord.deploy();
 
-  await socialMedia.deployed();
+  await EHR.deployed();
 
-  console.log('Contract Address :', socialMedia.address);
+  console.log('Contract Address :', EHR.address);
 }
 
 // We recommend this pattern to be able to use async/await everywhere
